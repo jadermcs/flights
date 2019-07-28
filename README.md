@@ -1,10 +1,28 @@
 # Flights Visualization
-It can be visualized in the following link: [Flights Visuzalition](https://jader.ml/flights)
+    It can be visualized in the following link: [Flights Visuzalition](https://jader.ml/flights)
 
 ## Abstract
-In this visualization I present the impact of flights cancellation caused by the terrorist attack of september-11 in 2001.
+    In this visualization I present the impact of flights cancellation caused by the terrorist
+    attack of september-11 in 2001. In this attack, terrorists kidnapped and used planes, going
+    to New York, to crash it against a famous building, World Trade Center, killing thousands of
+    civilians. In september there was a huge increase in cancellations as government measures,
+    to mitigate/investigate future attacks, and part by curtomers fears about future attacks.
 
 ## Design
+    I want to point out the huge cancelling to flights that happened in september caused by
+    the terrorist attack, part by government actions, part customers fears. An important
+    information is to show the total flights, as some months could be more flights than others,
+    like period o vacations, etc. Than I notice an interesting thing, flights also decreased a
+    little too, so it reinforced the need of this info in the plot. In the beggining
+    I intended to plot total flights and cancellations in the same scale but as the cancelling
+    ratio is too low compared to all flights it difficulted to see the real impact of the attack
+    to I put it in another axis. I chose to use a more flashy color for cancellations to point out
+    the main takeaway, also a different plot style, points, to break the scale context.
+    The default color for dimplesjs, the api used, is borring, so I did some research and picked
+    interesting colors in colorhunt, adding a more appealling aesthetics to the graph. Then I
+    applied the IBM font as it looks more "journalistic", then some minor adjustments to sizes and
+    spacements.
+    I fixed chronology axis as it was ordering by lexigraphical order.
 ![alt text](sketch.jpeg "Initial sketch")
 
 ## Feedback

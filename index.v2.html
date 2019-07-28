@@ -5,7 +5,7 @@
 	  content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Dashboard from loan data analysis.">
     <meta name="author" content="Jader Martins">
-    <title>Flights Visualization</title>
+    <title>Flights Viz</title>
     <script src="js/d3.v4.min.js"></script>
     <script src="js/dimple.v2.3.0.min.js"></script>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
@@ -21,13 +21,12 @@
           // Create a svg container to recieve the chart
           var svg = dimple.newSvg("body", 1200, 550);
           // Creates chart and set sizes
-          var chart = new dimple.chart(svg, data);
-          chart.setBounds(60, 40, 1050, 350)
+	  var chart = new dimple.chart(svg, data);
+          chart.setBounds(60, 30, 1050, 400)
           // Set column data to each axis.
-          var x = chart.addCategoryAxis("x", "Date");
-          x.addOrderRule("Index");
-          var y1 = chart.addMeasureAxis("y", "Planned");
-          var y2 = chart.addMeasureAxis("y", "Cancelled");
+	  var x = chart.addCategoryAxis("x", "Date");
+	  var y1 = chart.addMeasureAxis("y", "Planned");
+	  var y2 = chart.addMeasureAxis("y", "Cancelled");
           // Some visual configs
           x.fontSize = '14px';
           y1.fontSize = '14px';
@@ -38,15 +37,15 @@
 					'hatch-1','hatch-2', 'hatch-3']};
           // Load data, define the plot type and join y2 to the same category
           chart.addSeries(["","Total Planned Flights (Cancelled or Not) by Month"],
-          dimple.plot.bar, [x, y1]);
+			  dimple.plot.bar, [x, y1]);
           chart.addSeries(["","Cancelled Flights by Month"], dimple.plot.line, [x,y2]);
           chart.addSeries(["","Cancelled Flights by Month"], dimple.plot.scatter, [x,y2]);
           // Add legend
-          chart.addLegend(70, 10, 600, 30);
+          chart.addLegend(70, 10, 510, 20);
           // Draw the chart and apply styles to the renderized result.
-          chart.draw(1000);
+	  chart.draw(1000);
           svg.selectAll(".dimple-line").style("stroke-dasharray", "3");
-          svg.selectAll(".dimple-bubble").style("fill", "#ef4b4b");
+          svg.selectAll(".dimple-bubble").style("stroke", "black");
       }
     </script>
   </head>
