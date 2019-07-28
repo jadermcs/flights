@@ -1,4 +1,4 @@
-# Flights
+# Flights Visualization
 It can be visualized in the following link: [Flights Visuzalition](https://jader.ml/flights)
 
 ## Abstract
@@ -23,17 +23,31 @@ In this visualization I present the impact of flights cancellation caused by the
 
 ### feed 2
 - what do you notice in the visualization?
-    The number of cancelled flights in NY was too high.
+    the number of cancelled flights in ny was too high.
 - what questions do you have about the data?
-    They are real?
+    they are real?
 - what relationships do you notice?
-    The terrorist attack was in the same month/year as the highest cancellations.
+    the terrorist attack was in the same month/year as the highest cancellations.
 - what do you think is the main takeaway from this visualization?
-    Show the relation between terrorist attacks and canceled flights.
+    show the relation between terrorist attacks and canceled flights.
 - is there something you don’t understand in the graphic?
-    As it happened a long time ago, did not remember exactly what it was.
+    as it happened a long time ago, did not remember exactly what it was.
+
+### feed 3
+- what do you notice in the visualization?
+    the data presents chronological information about flights.
+- what questions do you have about the data?
+    the canceled flight would occur that month or occured that month.
+- what relationships do you notice?
+    there was a trend in reducing cancellations that stopped with the attack.
+- what do you think is the main takeaway from this visualization?
+    the change that the attack made to cancellations.
+- is there something you don’t understand in the graphic?
+    the chronological axis is confuse and took some time to understand.
 
 ## Resources
 
 - https://github.com/PMSI-AlignAlytics/dimple/wiki
 - https://colorhunt.co/
+- https://github.com/d3/d3/wiki
+- http://stat-computing.org/dataexpo/2009/the-data.html

@@ -5,7 +5,7 @@
 	  content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Dashboard from loan data analysis.">
     <meta name="author" content="Jader Martins">
-    <title>Flights Viz</title>
+    <title>Flights Visualization</title>
     <script src="js/d3.v4.min.js"></script>
     <script src="js/dimple.v2.3.0.min.js"></script>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
@@ -25,6 +25,7 @@
           chart.setBounds(60, 40, 1050, 350)
           // Set column data to each axis.
 	  var x = chart.addCategoryAxis("x", "Date");
+      x.addOrderRule("Date");
 	  var y1 = chart.addMeasureAxis("y", "Planned");
 	  var y2 = chart.addMeasureAxis("y", "Cancelled");
           // Some visual configs
