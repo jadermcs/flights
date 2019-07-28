@@ -36,7 +36,8 @@
 				    axisTitle: 'writing', colorClasses: [
 					'hatch-1','hatch-2', 'hatch-3']};
           // Load data, define the plot type and join y2 to the same category
-          chart.addSeries(["","Total Planned Flights by Month"], dimple.plot.bar, [x, y1]);
+          chart.addSeries(["","Total Planned Flights (Cancelled or Not) by Month"],
+			  dimple.plot.bar, [x, y1]);
           chart.addSeries(["","Cancelled Flights by Month"], dimple.plot.line, [x,y2]);
           chart.addSeries(["","Cancelled Flights by Month"], dimple.plot.scatter, [x,y2]);
           // Add legend
