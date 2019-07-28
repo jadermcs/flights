@@ -5,6 +5,7 @@ It can be visualized in the following link: [Flights Visuzalition](https://jader
 In this visualization I present the impact of flights cancellation caused by the terrorist attack of september-11 in 2001.
 
 ## Design
+![alt text](sketch.jpeg "Initial sketch")
 
 ## Feedback
 ### feed 1
@@ -33,3 +34,6 @@ In this visualization I present the impact of flights cancellation caused by the
     As it happened a long time ago, did not remember exactly what it was.
 
 ## Resources
+
+- https://github.com/PMSI-AlignAlytics/dimple/wiki
+- https://colorhunt.co/

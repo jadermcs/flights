@@ -1,14 +1,19 @@
-h2 { text-align: left; }
+h2 {
+    text-align: left;
+}
 
 h3 {
     text-align: left;
     margin-left: 50px;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
 }
 
-.writing { font-family: 'IBM Plex Serif', serif !important; }
+.writing {
+    font-family: 'IBM Plex Serif', serif !important;
+}
 
-.hatch-1 { stroke: rgb(0, 0, 0, 0.75) !important; }
-
-.hatch-2 { stroke: rgb(0, 0, 0) !important; }
+.hatch-1 {
+    stroke: rgb(126,207,192) !important;
+    fill: rgb(126,207,192) !important;
+}

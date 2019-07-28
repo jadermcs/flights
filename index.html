@@ -22,7 +22,7 @@
           var svg = dimple.newSvg("body", 1200, 550);
           // Creates chart and set sizes
 	  var chart = new dimple.chart(svg, data);
-          chart.setBounds(60, 40, 1050, 400)
+          chart.setBounds(60, 40, 1050, 350)
           // Set column data to each axis.
 	  var x = chart.addCategoryAxis("x", "Date");
 	  var y1 = chart.addMeasureAxis("y", "Planned");
@@ -45,7 +45,7 @@
           // Draw the chart and apply styles to the renderized result.
 	  chart.draw(1000);
           svg.selectAll(".dimple-line").style("stroke-dasharray", "3");
-          svg.selectAll(".dimple-bubble").style("stroke", "black");
+          svg.selectAll(".dimple-bubble").style("fill", "#ef4b4b");
       }
     </script>
   </head>
