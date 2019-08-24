@@ -1,5 +1,5 @@
 # Flights Visualization
-    It can be visualized in the following link: [Flights Visuzalition](https://jader.ml/flights)
+It can be visualized in the following link: [Flights Visuzalition](https://jader.ml/flights)
 
 ## Abstract
     In this visualization I present the impact of flights cancellation caused by the terrorist
